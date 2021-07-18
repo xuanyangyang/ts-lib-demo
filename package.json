@@ -1,0 +1,12 @@
+{
+  "name": "ts-lib-demo",
+  "type": "3d",
+  "uuid": "b32708a2-5ef6-45db-94fe-da039e47c14a",
+  "version": "3.2.0",
+  "creator": {
+    "version": "3.2.0"
+  },
+  "dependencies": {
+    "ts-demo": "git+https://github.com/xuanyangyang/ts-demo.git"
+  }
+}
