@@ -1,5 +1,5 @@
 import {_decorator, Component} from 'cc';
-import {TSObject1, TSObject2, TSObject3, TSObject4} from "ts-demo";
+import {TSObject1, TSObject2, TSObject3, TSObject4, TSObject5} from "ts-demo";
 
 const {ccclass, property} = _decorator;
 
@@ -18,6 +18,7 @@ export class GameRoot extends Component {
         console.log(TSObject2);
         console.log(TSObject3);
         console.log(TSObject4);
+        console.log(TSObject5);
         let t1 = new TSObject1("1");
         console.log(t1);
         let t2 = new TSObject2(2);
@@ -26,6 +27,8 @@ export class GameRoot extends Component {
         console.log(t3);
         let t4 = new TSObject4(4, "4");
         console.log(t4);
+        let t5 = new TSObject5(t1);
+        console.log(t5);
     }
 
     // update (deltaTime: number) {
